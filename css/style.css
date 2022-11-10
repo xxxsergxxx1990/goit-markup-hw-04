@@ -116,6 +116,7 @@ a{
 .page-header--connection:hover{
     color: var(--text-accent);
 }
+
 .page-header--tel{
     color:  var(--text-secondColor);
     font-family: 'Roboto';
@@ -196,6 +197,17 @@ a{
     line-height: 1.7;
     color:var(--text-secondColor);
 }
+.benefits--icon{
+   
+
+background-color: #F5F4FA;
+}
+.benefits--icon{
+    width: 70px;
+    height: 70px;
+    
+}
+
 /* ----------activity---------- */
 .activity{
     padding-bottom: 94px;
@@ -218,6 +230,7 @@ a{
 .activity--item:not(last-child){
     margin-right: 30px;
 }
+
 
 /* ----------team---------- */
 .team{
