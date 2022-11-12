@@ -197,16 +197,17 @@ a{
     line-height: 1.7;
     color:var(--text-secondColor);
 }
-.benefits--icon{
+.benefits--thumb{
+    width: 270px;
+   height: 120px;
+   margin-bottom: 30px;
+   background-color: #F5F4FA;
+   display: flex;
+   justify-content: center;
+   align-items: center;
    
+}
 
-background-color: #F5F4FA;
-}
-.benefits--icon{
-    width: 70px;
-    height: 70px;
-    
-}
 
 /* ----------activity---------- */
 .activity{
@@ -278,7 +279,35 @@ background-color: #F5F4FA;
     font-size: 16px;
     line-height: 1.18;
     color: var(--text-secondColor);
-    margin-bottom: 0;
+    margin-bottom: 16px;
+}
+.team--social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.team--icon:not(:last-child) {
+    margin-right: 10px;
+}
+.team--link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #afb1b8;
+}
+.team--link:hover,
+.team--link:focus{
+    background-color:var(--text-accent) ;
+    color: #fff;
+}
+.team--hover{
+    fill: currentColor;
 }
 /* ----------footer---------- */
 .foot{
