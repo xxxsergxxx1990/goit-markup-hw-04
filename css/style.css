@@ -74,12 +74,7 @@ a{
 .page-header--item:not(last-child){
     margin-right: 50px;
 }
-.page-header--link{
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 
-}
 
 .page-header--list{
     display: flex;
@@ -92,6 +87,9 @@ a{
 
 
 .page-header--link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -101,6 +99,8 @@ a{
 .page-header--link:focus{
     color: var(--text-accent);
 }
+
+
 .page-header--connection{
     color: var(--text-secondColor);
     margin-left: auto;
